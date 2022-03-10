@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net6.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Discord.Addons.Hosting" Version="5.1.0" />
+	<PackageReference Include="Discord.Addons.Interactive.Pancine" Version="3.4.0" />
+	<PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+	<PackageReference Include="Serilog" Version="2.10.0" />
+	<PackageReference Include="SpotifyAPI.Web" Version="6.2.2" />
+	<PackageReference Include="StackExchange.Redis" Version="2.2.88" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PanpsBot.Infrastructure\PanpsBot.Infrastructure.csproj" />
+    <ProjectReference Include="..\PanpsBot.Models\PanpsBot.Models.csproj" />
+  </ItemGroup>
+
+</Project>

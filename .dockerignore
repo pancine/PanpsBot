@@ -1,0 +1,10 @@
+**/[Bb]in/
+**/[Oo]bj/
+.git/
+.github/
+.vs/
+.vscode/
+Scripts/
+.editorconfig
+
+*.user

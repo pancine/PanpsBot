@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanpsBot", "PanpsBot\PanpsBot.csproj", "{6044254D-CE68-4790-B44D-96FB0C1371F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DE73B64-DF7B-43DD-9131-EDDF2C2130AF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanpsBot.Functions", "PanpsBot.Functions\PanpsBot.Functions.csproj", "{C5CF07DD-7AE2-40F0-9993-A2F90DA5EA8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanpsBot.Infrastructure", "PanpsBot.Infrastructure\PanpsBot.Infrastructure.csproj", "{D8F7BE08-EE0B-485C-B0BE-95B71DD571AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanpsBot.Services", "PanpsBot.Services\PanpsBot.Services.csproj", "{81DCD48D-A582-4394-A2A9-1D7771051CA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PanpsBot.Models", "PanpsBot.Models\PanpsBot.Models.csproj", "{1E621616-061F-4A68-BF62-B61C184A8CFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6044254D-CE68-4790-B44D-96FB0C1371F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6044254D-CE68-4790-B44D-96FB0C1371F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6044254D-CE68-4790-B44D-96FB0C1371F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6044254D-CE68-4790-B44D-96FB0C1371F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5CF07DD-7AE2-40F0-9993-A2F90DA5EA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5CF07DD-7AE2-40F0-9993-A2F90DA5EA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5CF07DD-7AE2-40F0-9993-A2F90DA5EA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5CF07DD-7AE2-40F0-9993-A2F90DA5EA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F7BE08-EE0B-485C-B0BE-95B71DD571AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F7BE08-EE0B-485C-B0BE-95B71DD571AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F7BE08-EE0B-485C-B0BE-95B71DD571AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F7BE08-EE0B-485C-B0BE-95B71DD571AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DCD48D-A582-4394-A2A9-1D7771051CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DCD48D-A582-4394-A2A9-1D7771051CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DCD48D-A582-4394-A2A9-1D7771051CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DCD48D-A582-4394-A2A9-1D7771051CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E621616-061F-4A68-BF62-B61C184A8CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E621616-061F-4A68-BF62-B61C184A8CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E621616-061F-4A68-BF62-B61C184A8CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E621616-061F-4A68-BF62-B61C184A8CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5BD0491-5984-4912-BF7C-818BFE475C90}
+	EndGlobalSection
+EndGlobal

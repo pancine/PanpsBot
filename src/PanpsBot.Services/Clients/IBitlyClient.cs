@@ -2,5 +2,5 @@
 
 public interface IBitlyClient
 {
-    Task<string> ShortenUrl(string discordId, string longUrl);
+    Task<string> ShortenUrl(string longUrl);
 }

@@ -19,7 +19,6 @@ public static class ServiceCollectionExtensions
 
         services.AddSingleton<IAuthenticationStateRepository, AuthenticationStateRepository>();
         services.AddScoped<ISpotifyUserRepository, SpotifyUserRepository>();
-        services.AddSingleton<BitlyInMemoryCollection>();
 
         services.AddHttpClient<ISpotifyClient, SpotifyClient>();
         services.AddHttpClient<IBitlyClient, BitlyClient>(client => {

@@ -26,7 +26,8 @@ public class SpotifyModule : InteractiveBase<SocketCommandContext>
         Log.Information("[{@Command}] {@AuthorName}", Context.Message.Content, Context.User.Username);
         try
         {
-            var url = await _spotifyService.GetAccessTokenUri(Context.User);
+            var userId = Context.User.Id.ToString();
+            var url = await _spotifyService.GetAccessTokenUri(userId);
             await Context.User.SendMessageAsync($"1. Go to: {url}\n2. Log in and accept\n");
         }
         catch (Exception ex)

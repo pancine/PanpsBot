@@ -25,20 +25,20 @@ public class SpotifyService : ISpotifyService
         _spotifyUserRepository = spotifyUserRepository;
     }
 
-    public async Task<string> GetAccessTokenUri(SocketUser user)
+    public async Task<string> GetAccessTokenUri(string discordId)
     {
         var stateKey = Guid.NewGuid().ToString();
         var url = _spotifyClient.GetOAuth2AuthorizeUrl(stateKey);
 
         var newUser = new SpotifyUser
         {
-            DiscordId = user.Id.ToString(),
+            DiscordId = discordId,
             DateAdded = DateTime.UtcNow.ConvertToSqlFormat()
         };
 
         await _authenticationStateRepository.SetSpotifyUserByStateKeyAsync(stateKey, newUser);
 
-        return await _bitlyClient.ShortenUrl(user.Id.ToString(), url);
+        return await _bitlyClient.ShortenUrl(url);
     }
 
     public async Task<PaginatedMessage> GetUserTopArtistsAsync(SocketUser user, string timeRange)
